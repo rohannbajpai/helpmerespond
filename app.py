@@ -35,11 +35,11 @@ def main():
   
 
 def processRequest(number, message): 
-    account_sid = 'AC077b3e50465d9691130ad9fc34b6ae18'
-    auth_token = 'b9a5dd0ad5163118a852562f6f716460'
+    account_sid = ''#filler
+    auth_token = ''filler
     client = Client(account_sid, auth_token)
 
-    openai.api_key = "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"
+    openai.api_key = "" #filler key
 
     response = openai.Completion.create(
         engine="text-davinci-002",
